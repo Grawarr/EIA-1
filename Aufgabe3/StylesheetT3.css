@@ -1,0 +1,49 @@
+body {
+    background-image: url(Resources/bg.png);
+    background-repeat: repeat;
+    width: 800;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1 {
+    position: relative;
+    top: -900px;
+    font-size: 1000%;
+    color: #ffffff;
+    font-weight: 900;
+    letter-spacing: -10px;
+}
+#loremm {
+    color: #ffffff;
+    position: relative;
+    top: -1050px;
+    right: -150px;
+    font-size: 350%;
+}
+#lorems {
+    color: #ffffff;
+    position: relative;
+    top: -1090px;
+    right: -745px;
+    text-align: start;
+    width: 300px;
+    font-size: 80%;
+}
+#facebook {
+    position: relative;
+    top: -1050px;
+    opacity: 50%;
+}
+.dot {
+    height: 800px;
+    width: 800px;
+    background-color:#b63514;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -350px;
+  }
+  #Inhalt {
+      position: relative;
+      top: -1000;
+  }
