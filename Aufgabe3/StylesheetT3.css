@@ -34,6 +34,11 @@ h1 {
     top: -1050px;
     opacity: 50%;
 }
+
+#facebook:hover {
+    opacity: 100%;
+}
+
 .dot {
     height: 800px;
     width: 800px;
@@ -44,6 +49,33 @@ h1 {
     top: -350px;
   }
   #Inhalt {
-      position: relative;
-      top: -1000;
+      position: absolute;
+      top: 70%;
   }
+
+  h2 {
+      color: #b63514;
+      position: relative;
+      right: 24%;
+  }
+
+#navbar {
+    position: absolute;
+    left: 55%;
+    top: -15px;
+    overflow: hidden;
+    background-color: black;
+  }
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+#navbar:hover {
+    color: #b63514;
+}
