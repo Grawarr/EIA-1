@@ -1,0 +1,32 @@
+body {
+    background-image: url(images/bg.png);
+    background-repeat: repeat;
+}
+
+.Images {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Text {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Jellyka Delicious Cake;
+    src: url(fonts/Jellyka\ Delicious\ Cake.ttf);
+}
+
+p {
+    font-size: larger;
+    letter-spacing: 3px;
+}
+
+h1 {
+    letter-spacing: 9px;
+}

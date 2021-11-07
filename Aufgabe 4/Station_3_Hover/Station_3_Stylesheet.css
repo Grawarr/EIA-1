@@ -1,0 +1,92 @@
+body {
+    background-image: url(images/bg.png);
+    background-repeat: repeat;
+}
+
+.Images {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Star_Bright {
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    opacity: 0%;
+}
+
+.Star_Bright:hover {
+    opacity: 100%;
+}
+
+.Star_Dark {
+    position: absolute;
+    top: 65%;
+    left: 80%;
+}
+
+.Star_Dark:hover {
+    opacity: 0%;
+}
+
+.Star_Bright_1 {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    opacity: 0%;
+}
+
+.Star_Bright_1:hover {
+    opacity: 100%;
+}
+
+.Star_Dark_1 {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+
+.Star_Dark_1:hover {
+    opacity: 0%;
+}
+
+.Star_Bright_2 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    opacity: 0%;
+}
+
+.Star_Bright_2:hover {
+    opacity: 100%;
+}
+
+.Star_Dark_2 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.Star_Dark_2:hover {
+    opacity: 0%;
+}
+
+.Text {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    position: relative;
+    bottom: 40px;
+    width: 400px;
+    font-size: larger;
+}

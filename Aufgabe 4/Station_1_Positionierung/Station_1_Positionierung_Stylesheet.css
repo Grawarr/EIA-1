@@ -1,0 +1,38 @@
+body {
+    background-image: url(images/bg.png);
+    background-repeat: repeat;
+}
+
+.Images {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Penguin {
+    position: absolute;
+    top: 55%;
+    left: 80%;
+}
+
+.Bush {
+    position: absolute;
+    right: 70%;
+    top: -10%;
+}
+
+.Text {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: larger;
+}

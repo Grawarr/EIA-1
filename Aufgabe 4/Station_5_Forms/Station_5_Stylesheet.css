@@ -1,0 +1,22 @@
+body {
+    background-image: url(images/bg.png);
+    background-repeat: repeat;
+}
+
+.Images {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Form {
+    margin: 0;
+    position: absolute;
+    top: 47%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
