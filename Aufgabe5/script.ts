@@ -53,9 +53,9 @@ var NANACo2:number=NorthAmerica18 - NorthAmerica08;
 var AsAsCo2:number=Asia18 - Asia08;
 var AusAusCo2:number=Australia18 - Australia08;
 
-console.log(txt1 + Africa + txt2 + Africa18 + txt3 + txt4 + Africa + txt5 + AfWrld.toFixed(02) + txt6 + txt7 + Africa + txt8 +AfAf.toFixed(02) + txt9 +  txt10 + AfAfCo2.toFixed(02) + txt11);
-console.log(txt1 + SouthAmerica + txt2 + SouthAmerica18 + txt3 + txt4 + SouthAmerica + txt5 + SAWrld.toFixed(02) + txt6 + txt7 + SouthAmerica + txt8 + SASA.toFixed(02) + txt9 + txt10 + SASACo2.toFixed(02) + txt11);
-console.log(txt1 + Europe + txt2 + Europe18 + txt3 + txt4 + Europe + txt5 + EuWrld.toFixed(02) + txt6 + txt7 + Europe + txt8 + txt9 + EuEu.toFixed(02) + txt10 + EuEuCo2.toFixed(02) + txt11);
-console.log(txt1 + NorthAmerica + txt2 + NorthAmerica18 + txt3 + txt4 + NorthAmerica + txt5 + NAWrld.toFixed(02) + txt6 + txt7 + NorthAmerica + txt8 + NANA.toFixed(02) + txt9 + txt10 + NANACo2.toFixed(02) + txt11);
-console.log(txt1 + Asia + txt2 + Asia18 + txt3 + txt4 + Asia + txt5 + AsWrld.toFixed(02) + txt6 + txt7 + Asia + txt8 + AsAs.toFixed(02) + txt9 + txt10 + AsAsCo2.toFixed(02) + txt11);
-console.log(txt1 + Australia + txt2 + Australia18 + txt3 + txt4 + Australia + txt5 + AusWrld.toFixed(02) + txt6 + txt7 + Australia + txt8 + AusAus.toFixed(02) + txt9 + txt10 + AusAusCo2.toFixed(02) + txt11);
+console.log(txt1 + Africa + txt2 + Africa18 + txt3 + txt4 + Africa + txt5 + AfWrld.toFixed(2) + txt6 + txt7 + Africa + txt8 +AfAf.toFixed(2) + txt9 +  txt10 + AfAfCo2.toFixed(2) + txt11);
+console.log(txt1 + SouthAmerica + txt2 + SouthAmerica18 + txt3 + txt4 + SouthAmerica + txt5 + SAWrld.toFixed(2) + txt6 + txt7 + SouthAmerica + txt8 + SASA.toFixed(2) + txt9 + txt10 + SASACo2.toFixed(2) + txt11);
+console.log(txt1 + Europe + txt2 + Europe18 + txt3 + txt4 + Europe + txt5 + EuWrld.toFixed(2) + txt6 + txt7 + Europe + txt8 + txt9 + EuEu.toFixed(2) + txt10 + EuEuCo2.toFixed(2) + txt11);
+console.log(txt1 + NorthAmerica + txt2 + NorthAmerica18 + txt3 + txt4 + NorthAmerica + txt5 + NAWrld.toFixed(2) + txt6 + txt7 + NorthAmerica + txt8 + NANA.toFixed(2) + txt9 + txt10 + NANACo2.toFixed(2) + txt11);
+console.log(txt1 + Asia + txt2 + Asia18 + txt3 + txt4 + Asia + txt5 + AsWrld.toFixed(2) + txt6 + txt7 + Asia + txt8 + AsAs.toFixed(2) + txt9 + txt10 + AsAsCo2.toFixed(2) + txt11);
+console.log(txt1 + Australia + txt2 + Australia18 + txt3 + txt4 + Australia + txt5 + AusWrld.toFixed(2) + txt6 + txt7 + Australia + txt8 + AusAus.toFixed(2) + txt9 + txt10 + AusAusCo2.toFixed(2) + txt11);
