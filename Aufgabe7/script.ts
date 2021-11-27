@@ -69,4 +69,5 @@ window.addEventListener("load", function () {
         }
     });
 
-})
+});
+//# sourceMappingURL=A7_javascript.js.map
