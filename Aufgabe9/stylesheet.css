@@ -1,0 +1,59 @@
+body {
+    background-color: #1e1e1e;
+    font-family: fontHack;
+    color: #8cdcfe;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+@font-face {
+    font-family: fontHack;
+    src: url(hack/Hack-Regular.ttf);
+}
+
+h1 {
+    color: #b3ba7d;
+}
+
+#taskAmount {
+    color: #3e9cd6;
+}
+
+#CircleEmpty:hover {
+    opacity: 75%;
+}
+
+#CircleFilled:hover {
+    opacity: 75%;
+}
+
+#CirclePlus:hover {
+    opacity: 75%;
+}
+
+#CircleMinus:hover {
+    opacity: 75%;
+}
+
+#CircleEmpty:active {
+    opacity: 50%;
+}
+
+#CircleFilled:active {
+    opacity: 50%;
+}
+
+#CirclePlus:active {
+    opacity: 50%;
+}
+
+#CircleMinus:active {
+    opacity: 50%;
+}
+
+div {
+    width: 256px;
+    height: 32px;
+    background-color: #252526;
+}

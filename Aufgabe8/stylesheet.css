@@ -1,0 +1,82 @@
+body {
+    background-color: #000;
+}
+
+#DrumPad {
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    width: 462px;
+    height: 462px;
+    background-color: #000;
+}
+
+.button {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    opacity: 75%;
+}
+
+.button:active {
+    opacity: 50%;
+}
+
+#Kick, #Snare, #HiHat {
+    background: linear-gradient(to bottom, #3d94f7, #1f63d1);
+}
+
+#A, #C, #F, #G {
+    background: linear-gradient(to bottom, #ff5bb0, #ef047e);
+}
+
+#Laugh1, #Laugh2 {
+    background: linear-gradient(to bottom, #f6a23d, #c66601);
+}
+
+.fas, .far{
+    padding: 25px;
+}
+#icons{
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    font-size: 50px;
+    color: #fff;
+}
+
+#play:hover {
+    opacity: 75%;
+}
+
+#randomize:hover {
+    opacity: 75%;
+}
+
+#trash:hover {
+    opacity: 75%;
+}
+
+#play:active {
+    opacity: 50%;
+}
+
+#randomize:active {
+    opacity: 50%;
+}
+
+#trash:active {
+    opacity: 50%;
+}
+
+#FlowchartLink {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
