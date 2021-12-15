@@ -1,10 +1,22 @@
 body {
     background-color: #1e1e1e;
+    background-image: url(T0_D0.png);
+    background-size: cover;
     font-family: fontHack;
     color: #8cdcfe;
     position: absolute;
     margin-top: 5%;
     margin-left: 10%;
+}
+
+input {
+    background-color: #252526;
+    color: #8cdcfe;
+    border: none;
+    width: 350px;
+    height: 32px;
+    font-family: fontHack;
+    font-size: larger;
 }
 
 @font-face {
@@ -16,49 +28,46 @@ h1 {
     color: #b3ba7d;
 }
 
-#taskAmount {
-    color: #3e9cd6;
+.todotext {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px;
+    padding-left: 256px;
+    margin: 8px;
+    background: #252526;
+    color: #ccbf9c;
+    font-size: 18px;
 }
 
-#CircleEmpty:hover {
-    opacity: 75%;
+.fa-circle {
+    color: #ccbf9c;
+    border: none;
+    background: none;
 }
 
-#CircleFilled:hover {
-    opacity: 75%;
+.fa-circle:hover {
+    color: #6a9955;
 }
 
-#CirclePlus:hover {
-    opacity: 75%;
+.fa-minus-circle {
+    color: #ccbf9c;
+    border: none;
+    background: none;
 }
 
-#CircleMinus:hover {
-    opacity: 75%;
+.fa-minus-circle:hover {
+    color: #992c2c;
 }
 
-#CircleEmpty:active {
-    opacity: 50%;
+.fa-dot-circle {
+    color: #6a9955;
 }
 
-#CircleFilled:active {
-    opacity: 50%;
+.taskAdded {
+    display: flex;
+    align-items: flex-start;
 }
 
-#CirclePlus:active {
-    opacity: 50%;
-}
-
-#CircleMinus:active {
-    opacity: 50%;
-}
-
-div {
-    width: 256px;
-    height: 32px;
-    background-color: #252526;
-}
-
-#droid {
-    position: relative;
-    margin: auto;
+#flowchartLink {
+    color: #b3ba7d;
 }
