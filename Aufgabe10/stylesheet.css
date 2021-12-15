@@ -1,0 +1,73 @@
+body {
+    background-color: #1e1e1e;
+    background-image: url(T0_D0.png);
+    background-size: cover;
+    font-family: fontHack;
+    color: #8cdcfe;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+input {
+    background-color: #252526;
+    color: #8cdcfe;
+    border: none;
+    width: 350px;
+    height: 32px;
+    font-family: fontHack;
+    font-size: larger;
+}
+
+@font-face {
+    font-family: fontHack;
+    src: url(hack/Hack-Regular.ttf);
+}
+
+h1 {
+    color: #b3ba7d;
+}
+
+.todotext {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px;
+    padding-left: 256px;
+    margin: 8px;
+    background: #252526;
+    color: #ccbf9c;
+    font-size: 18px;
+}
+
+.fa-circle {
+    color: #ccbf9c;
+    border: none;
+    background: none;
+}
+
+.fa-circle:hover {
+    color: #6a9955;
+}
+
+.fa-minus-circle {
+    color: #ccbf9c;
+    border: none;
+    background: none;
+}
+
+.fa-minus-circle:hover {
+    color: #992c2c;
+}
+
+.fa-dot-circle {
+    color: #6a9955;
+}
+
+.taskAdded {
+    display: flex;
+    align-items: flex-start;
+}
+
+#flowchartLink {
+    color: #b3ba7d;
+}
