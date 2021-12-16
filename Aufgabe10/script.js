@@ -36,9 +36,37 @@ window.addEventListener("load", function () {
         console.log(toDoList);
         //reverts value
         toDoInput.value = "";
-        //click detection and mark as done toggle
-        taskRemove.addEventListener("click", function () { toDo.removeChild(toDoList); index--; taskAmount(); });
-        circle.addEventListener("click", function () { circle.classList.toggle("fa-dot-circle"); taskDone(); });
+        //properly sorted counting when marking tasks as done or open and when deleting them.
+        taskRemove.addEventListener("click", function () {
+            toDo.removeChild(toDoList);
+            index--;
+            taskAmount();
+            if (circle.classList.contains("fa-dot-circle")) {
+                indexDone--;
+                document.querySelector("#taskAmount").innerHTML = String(index);
+                document.querySelector("#taskDoneAmount").innerHTML = String(indexDone);
+            }
+            else {
+                indexOpen--;
+                document.querySelector("#taskAmount").innerHTML = String(index);
+                document.querySelector("#taskOpenAmount").innerHTML = String(indexOpen);
+            }
+        });
+        circle.addEventListener("click", function () {
+            circle.classList.toggle("fa-dot-circle");
+            if (circle.classList.contains("fa-dot-circle")) {
+                indexDone++;
+                indexOpen--;
+                document.querySelector("#taskDoneAmount").innerHTML = String(indexDone);
+                document.querySelector("#taskOpenAmount").innerHTML = String(indexOpen);
+            }
+            else {
+                indexDone--;
+                indexOpen++;
+                document.querySelector("#taskDoneAmount").innerHTML = String(indexDone);
+                document.querySelector("#taskOpenAmount").innerHTML = String(indexOpen);
+            }
+        });
     }
     //adds function to enter key
     document.addEventListener("keydown", function (event) {
@@ -46,13 +74,5 @@ window.addEventListener("load", function () {
             taskAdd();
         }
     });
-    //whenever a new task is made, +1 to taskOpen. If click on checkcircle -> -1 to taskOpen and +1 to taskDone
-    function taskDone() {
-        indexDone++;
-        indexOpen--;
-        document.querySelector("#taskDoneAmount").innerHTML = String(indexDone);
-        document.querySelector("#taskOpenAmount").innerHTML = String(indexOpen);
-    }
-    //next issue: when reverting task from done to open numbers need to change back somehow. Also when removing tasks entirely how do I remove the correctly assorted amount value?
 });
 //# sourceMappingURL=script.js.map
