@@ -1,5 +1,7 @@
 //I have no idea why the notes disappear almost immediately after hitting enter key... if you just press enter without typing text everything works as intended; Buttons included. Since the text does show up for a split second I am guessing I coded in some function that deletes it automatically in sort of a loop by accident. No idea tho. I hope this suffices for now. Last time I forgot to link this script in the HTML so no wonder I got frustrated.
 //read everything first
+declare var Artyom: any;
+
 window.addEventListener("load", function () {
     //variables
     const toDo = document.querySelector("ul");
@@ -72,4 +74,38 @@ window.addEventListener("load", function () {
             taskAdd();
         }
     });
+    //Artyom Integration
+    this.window.addEventListener("click", function () {
+        const artyom = new Artyom();
+        function startContinuousArtyom() {
+            artyom.fatality();
+            setTimeout(function () {
+                lang: "en-EN",
+                continuous: true,
+                listen: true,
+                interimResults: true,
+                debug: true
+            }).then(function () {
+                console.log("Ready!");
+            });
+        },250);
+        
+        startContinuousArtyom();
+        Artyom.addCommands({
+            indexes: ["T0-D0, please add * to the List"]
+            smart: true,
+            action: function (i, wildcard) {
+                addTask(wildcard)
+                alert ("Test")
+        } 
+        
+        document.querySelector("#mic").addEventListener("click", function () {
+        startContinuousArtyom();
+        })
+    });
+    } 
 });
+
+//I had severe difficulties testing any of the Artyom stuff. I hope this works on other PCs. 
+
+//Frohe Feiertage und guten Rutsch!

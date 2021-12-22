@@ -71,3 +71,11 @@ h1 {
 #flowchartLink {
     color: #b3ba7d;
 }
+
+#mic:hover {
+    opacity: 75%;
+}
+
+#mic:active {
+    opacity: 50%;
+}
